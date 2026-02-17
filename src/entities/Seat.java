@@ -27,6 +27,10 @@ public class Seat {
         return collumn;
     }
 
+    public void setReserved(boolean reserved) {
+        isReserved = reserved;
+    }
+
     public boolean isReserved() {
         return isReserved;
     }
